@@ -1,5 +1,6 @@
 import { createServer, Factory, Model, Response } from "miragejs";
 import faker from "faker";
+
 type User = {
     name: string;
     email: string;
